@@ -6,6 +6,7 @@ pool:
 
 steps:
   - task: UseDotNet@2
+    enabled: false
     displayName: 'Use .NET Core 6 SDK'
     inputs:
       packageType: sdk
