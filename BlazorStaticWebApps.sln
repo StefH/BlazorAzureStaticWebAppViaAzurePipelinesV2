@@ -11,6 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiIsolated", "ApiIsolated\ApiIsolated.csproj", "{162B3342-33B4-49D4-BFD9-F10C053B2025}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A3F2BC6-564C-4E11-973A-BBFDD1960298}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{0C6C4DCA-F891-417A-93B1-D708724787F4}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +43,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4B1375B-C892-424D-9CB2-9FE2B5B47EDF} = {8A3F2BC6-564C-4E11-973A-BBFDD1960298}
+		{491BFBAF-7032-4ED7-BF3A-33595531E18A} = {8A3F2BC6-564C-4E11-973A-BBFDD1960298}
+		{DA2371A3-4788-4B2A-A0F0-0FF8EBB4C948} = {8A3F2BC6-564C-4E11-973A-BBFDD1960298}
+		{162B3342-33B4-49D4-BFD9-F10C053B2025} = {8A3F2BC6-564C-4E11-973A-BBFDD1960298}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAEC77B5-1FF5-4E89-86CD-620314C521C4}
