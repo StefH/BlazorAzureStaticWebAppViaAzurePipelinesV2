@@ -5,13 +5,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-  - task: UseDotNet@2
-    enabled: false
-    displayName: 'Use .NET Core 6 SDK'
-    inputs:
-      packageType: sdk
-      version: 6.0.x
-
   - task: AzureStaticWebApp@0
     inputs:
       app_location: "Client" # App source code path
